@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.card1{
+    Width:150px;
+    margin: 20px;
+    padding: 15px 20px;
+    display: inline-block;
+    border: 2px solid lightblue;
+    border-radius:20px;
+   }
+   .card1 img {
+    padding: 10px 20px;
+    width: 100px;
+  }
+  .parent a{
+    text-decoration: none;
+
+  }
+  .card2{
+    margin:20px;
+    padding: 15px 20px;
+    display: inline-block;
+    border: 2px solid lightblue;
+    border-radius:10px;
+  }
+  .card2 img {
+    padding: 10px 70px;
+    width: 100px;
+  }
+
+  
+  .card2 p{
+    display: inline-block;
+    padding: 0 10px ;
+    align-items: center;
+    background-color: #6e2594;
+    border-radius: 0 20px 20px 0;
+    color: white;
+  }
+.card2 .price{
+  color:red;
+font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+  background-color:white;
+  color: coral;
+}
+.card3{
+  Width:300px;
+  margin: 20px;
+  padding: 15px 20px;
+  display: inline-block;
+  border: 2px solid lightblue;
+  border-radius:20px;
+  font-family: cursive;
+  font-size: 25px;
+  text-align: center;
+  background-image: url(../Screenshot_6.png);
+  background-position:center;
+ }
+ .card4{
+  Width:200px;
+  margin: 20px;
+  padding: 15px 20px;
+  display: inline-block;
+  border: 2px solid lightblue;
+  border-radius:20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align:center;
+  background: #ad5389;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+ }
+ 
